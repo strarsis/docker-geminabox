@@ -4,7 +4,7 @@ include env_make
 NS = strarsis
 VERSION ?= v0.12.4
 
-REPO = public
+REPO = geminabox
 NAME = geminabox
 INSTANCE = default
 
