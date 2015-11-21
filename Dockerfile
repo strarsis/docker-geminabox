@@ -10,5 +10,7 @@ ADD . ./
 RUN bundle config path ./bundler && \
 NOKOGIRI_USE_SYSTEM_LIBRARIES=1 bundle install
 
+VOLUME /var/geminabox-data
 EXPOSE 9292
+
 CMD bundle exec rackup --host 0.0.0.0
