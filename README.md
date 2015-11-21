@@ -23,14 +23,14 @@ VOLUMES = -v ${PWD}/geminabox-data:/var/geminabox-data
 ENV =
 ````
 
-For geminabox related configuration, adjust the config.ru.
+For geminabox related configuration, adjust file config.ru.
 
 For rackup/rake related configuration, see its invokation in the Dockerfile.
 
 
 ## Data/Persistance
 
-/var/geminabox-data in container is used for the gems pushed to geminabox.
+Directory /var/geminabox-data in container is used for the gems pushed to geminabox.
 
 
 ## Using geminabox as client/source
