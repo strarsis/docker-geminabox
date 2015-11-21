@@ -14,6 +14,7 @@ Docker image for geminabox
 
 ## Configuration
 
+### Make
 For testing/building using make/Makefile, add and adjust file env_make (ignored by VCS):
 ````
 PORTS = -p 9292:9292
@@ -23,9 +24,12 @@ VOLUMES = -v ${PWD}/geminabox-data:/var/geminabox-data
 ENV =
 ````
 
+### Configuration
 For geminabox related configuration, adjust file config.ru.
 
 For rackup/rake related configuration, see its invokation in the Dockerfile.
+
+After changing configuration, rebuild the docker image.
 
 
 ## Data/Persistance
