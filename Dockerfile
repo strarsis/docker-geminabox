@@ -11,4 +11,4 @@ RUN bundle config path ./bundler && \
 NOKOGIRI_USE_SYSTEM_LIBRARIES=1 bundle install
 
 EXPOSE 9292
-CMD bundle exec rackup
+CMD bundle exec rackup --host 0.0.0.0
