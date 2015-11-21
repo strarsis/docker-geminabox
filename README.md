@@ -32,7 +32,7 @@ For rackup/rake related configuration, see its invokation in the Dockerfile.
 After changing configuration, rebuild the docker image.
 
 
-## Data/Persistance
+## Data/Persistence
 
 Directory /var/geminabox-data in container is used for the gems pushed to geminabox.
 
