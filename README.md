@@ -2,9 +2,9 @@
 Docker image for geminabox
 
 
-## Installing Image
+## Build Image
 
-`docker pull strarsis/geminabox:latest`
+`docker build -t strarsis/geminabox .`
 
 
 ## Creating Container
