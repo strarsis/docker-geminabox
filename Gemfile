@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'geminabox', '~> 0.12.4'
+gem 'geminabox', '~> 0.13.0'
